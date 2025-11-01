@@ -227,6 +227,12 @@ ac.abort();
 console.log(ac.signal.reason); // Prints true
 ```
 
+Instance properties
+
+`signal.aborted` - <kbd>read-only</kbd> returns `{boolean}` and same as the AbortSignal.aborted below
+
+`signal.reason` - <kbd>read-only</kbd> - returns {string} and same as the AbortSignal.reason below
+
 #### AbortSignal
 
 The AbortSignal interface represents a signal object that allows you to communicate with an asynchronous operation (such as a fetch request) and abort it if required via an AbortController object.
